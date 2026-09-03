@@ -1,0 +1,78 @@
+{
+  "supplier_name": "Farmaceutica Andina S.A.S.",
+  "currency": "USD",
+  "line_items": [
+    {
+      "product_name": "Dolostop 500",
+      "model_or_sku": "01",
+      "inn": "Paracetamol",
+      "unit_of_measure": "tablet",
+      "units_per_pack": 20,
+      "price_per_unit": 0.0091,
+      "price_per_pack": null,
+      "confidence": "medium",
+      "notes": "Unit price 0.0091 is the list price before the 3.0% discount shown in the Disc. % column; net is not stated separately Low-resolution fax scan; the unit price column sits visually above its row, so row association was inferred from the item order.",
+      "source_locator": "page 1, schedule item 01"
+    },
+    {
+      "product_name": "Amlodin 5",
+      "model_or_sku": "02",
+      "inn": "Amlodipine besylate",
+      "unit_of_measure": "tablet",
+      "units_per_pack": 30,
+      "price_per_unit": 0.0128,
+      "price_per_pack": null,
+      "confidence": "medium",
+      "notes": "Unit price 0.0128 is the list price before the 3.0% discount shown in the Disc. % column; net is not stated separately Low-resolution fax scan; the unit price column sits visually above its row, so row association was inferred from the item order.",
+      "source_locator": "page 1, schedule item 02"
+    },
+    {
+      "product_name": "Losandina 50",
+      "model_or_sku": "03",
+      "inn": "Losartan potassium",
+      "unit_of_measure": "tablet",
+      "units_per_pack": 30,
+      "price_per_unit": 0.0205,
+      "price_per_pack": null,
+      "confidence": "medium",
+      "notes": "Unit price 0.0205 is the list price before the 5.0% discount shown in the Disc. % column; net is not stated separately Low-resolution fax scan; the unit price column sits visually above its row, so row association was inferred from the item order.",
+      "source_locator": "page 1, schedule item 03"
+    },
+    {
+      "product_name": "Amoxidina 250/5",
+      "model_or_sku": "04",
+      "inn": "Amoxicillin trihydrate",
+      "unit_of_measure": "bottle",
+      "units_per_pack": 1,
+      "price_per_unit": 0.345,
+      "price_per_pack": null,
+      "confidence": "medium",
+      "notes": "Low-resolution fax scan; the unit price column sits visually above its row, so row association was inferred from the item order.",
+      "source_locator": "page 1, schedule item 04"
+    },
+    {
+      "product_name": "Enalten 10",
+      "model_or_sku": "05",
+      "inn": "Enalapril maleate",
+      "unit_of_measure": "tablet",
+      "units_per_pack": 500,
+      "price_per_unit": 0.0074,
+      "price_per_pack": null,
+      "confidence": "medium",
+      "notes": "Unit price 0.0074 is the list price before the 5.0% discount shown in the Disc. % column; net is not stated separately Low-resolution fax scan; the unit price column sits visually above its row, so row association was inferred from the item order.",
+      "source_locator": "page 1, schedule item 05"
+    },
+    {
+      "product_name": "Salbudina 2/5",
+      "model_or_sku": "06",
+      "inn": "Salbutamol sulfate",
+      "unit_of_measure": "bottle",
+      "units_per_pack": 1,
+      "price_per_unit": 0.412,
+      "price_per_pack": null,
+      "confidence": "medium",
+      "notes": "Low-resolution fax scan; the unit price column sits visually above its row, so row association was inferred from the item order.",
+      "source_locator": "page 1, schedule item 06"
+    }
+  ]
+}

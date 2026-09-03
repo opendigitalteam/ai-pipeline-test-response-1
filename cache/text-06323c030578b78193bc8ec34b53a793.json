@@ -1,0 +1,42 @@
+{
+  "supplier_name": "Novara Farmaceutici S.p.A.",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "product_name": "Azimax 250",
+      "model_or_sku": null,
+      "inn": "Azithromycin 250 mg",
+      "unit_of_measure": "tablet",
+      "units_per_pack": 6,
+      "price_per_unit": 0.134,
+      "price_per_pack": null,
+      "confidence": "medium",
+      "notes": "The body quotes 0.128 per tablet; the P.S. corrects this to 0.134 per tablet as the current list price. Later figure used, 0.128 superseded.",
+      "source_locator": "body line 1 and P.S."
+    },
+    {
+      "product_name": "Zincora 20",
+      "model_or_sku": null,
+      "inn": "Zinc sulfate 20 mg",
+      "unit_of_measure": "tablet",
+      "units_per_pack": 100,
+      "price_per_unit": null,
+      "price_per_pack": 1.55,
+      "confidence": "high",
+      "notes": "Quoted as 1.55 per box of 100 tablets; no per-tablet price stated.",
+      "source_locator": "body line 2"
+    },
+    {
+      "product_name": "Dexafar 4 mg/mL",
+      "model_or_sku": null,
+      "inn": "Dexamethasone sodium phosphate",
+      "unit_of_measure": "ampoule",
+      "units_per_pack": 25,
+      "price_per_unit": 0.41,
+      "price_per_pack": null,
+      "confidence": "high",
+      "notes": "Quoted ex-stock, batch expiring 03/2028.",
+      "source_locator": "body line 3"
+    }
+  ]
+}

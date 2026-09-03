@@ -1,0 +1,66 @@
+{
+  "supplier_name": "Mekong Pharma JSC",
+  "currency": "USD",
+  "line_items": [
+    {
+      "product_name": "Mekamox 500/125",
+      "model_or_sku": null,
+      "inn": "Amoxicillin trihydrate + Clavulanic acid",
+      "unit_of_measure": "tablet",
+      "units_per_pack": 20,
+      "price_per_unit": 0.0715,
+      "price_per_pack": 1.43,
+      "confidence": "high",
+      "notes": null,
+      "source_locator": "page 1, line 1"
+    },
+    {
+      "product_name": "Vermaben 400",
+      "model_or_sku": null,
+      "inn": "Albendazole",
+      "unit_of_measure": "tablet",
+      "units_per_pack": 1,
+      "price_per_unit": 0.0223,
+      "price_per_pack": 0.0223,
+      "confidence": "high",
+      "notes": null,
+      "source_locator": "page 1, line 2"
+    },
+    {
+      "product_name": "Salvent HFA",
+      "model_or_sku": null,
+      "inn": "Salbutamol sulfate",
+      "unit_of_measure": "inhaler",
+      "units_per_pack": 1,
+      "price_per_unit": 1.42,
+      "price_per_pack": 1.42,
+      "confidence": "high",
+      "notes": null,
+      "source_locator": "page 1, line 3"
+    },
+    {
+      "product_name": "Mekatri 300/300/50",
+      "model_or_sku": null,
+      "inn": "Tenofovir disoproxil fumarate + Lamivudine + Dolutegravir",
+      "unit_of_measure": "tablet",
+      "units_per_pack": 30,
+      "price_per_unit": 0.0428,
+      "price_per_pack": 1.284,
+      "confidence": "high",
+      "notes": null,
+      "source_locator": "page 1, line 4"
+    },
+    {
+      "product_name": "Ferrofol 60/0.4",
+      "model_or_sku": null,
+      "inn": "Ferrous sulfate + Folic acid",
+      "unit_of_measure": "tablet",
+      "units_per_pack": 1000,
+      "price_per_unit": 0.00485,
+      "price_per_pack": 4.85,
+      "confidence": "high",
+      "notes": null,
+      "source_locator": "page 1, line 5"
+    }
+  ]
+}
