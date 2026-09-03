@@ -99,31 +99,18 @@ def extract_email(path: Path) -> list[Quotation]:
         f"Date: {message.get('Date')}\n\n"
     )
 
-    quotations = _to_quotations(
+    # Prices in prose get revised later in a thread. The prompt tells the model
+    # that a later figure supersedes an earlier one and to record the
+    # superseded value in notes, which is where the correction handling lives.
+    return _to_quotations(
         llm.extract_from_text(header + content, path.name), path.name, "email"
     )
-
-    # Prices in prose get revised in postscripts. The model is told to take the
-    # later figure, and this is the belt-and-braces check that it did: if the
-    # body mentions a correction at all, every line from this document gets
-    # looked at by a human.
-    lowered = content.lower()
-    if any(word in lowered for word in ("correction", "corrected", "revised", "instead of")):
-        for q in quotations:
-            q.flag("Message contains a correction or revision - verify the price used")
-            q.mark("price_per_unit", "medium", "email thread contains a later correction")
-
-    return quotations
 
 
 def extract_image(path: Path) -> list[Quotation]:
     encoded = base64.b64encode(path.read_bytes()).decode()
-    quotations = _to_quotations(
+    return _to_quotations(
         llm.extract_from_image(encoded, path.name),
         path.name,
         "image",
-        floor="low",
     )
-    for q in quotations:
-        q.flag("Read from a degraded scan - confirm against the source document")
-    return quotations

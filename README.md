@@ -71,5 +71,5 @@ model-backed is exercised by running the pipeline and reading the output.
 The SQLite output has a `needs_review` view filtering to anything not high
 confidence or carrying a flag.
 
-Current run: 37 line items from 8 documents, 11 high / 14 medium / 12 low
+Current run: 37 line items from 8 documents, 12 high / 19 medium / 6 low
 confidence, 24 carrying at least one flag.

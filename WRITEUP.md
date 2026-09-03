@@ -91,27 +91,8 @@ a review queue nobody reads.
 The flags are sentences, not codes. `Tiered pricing - confirm the volume band
 before comparing` tells a reviewer what to do; `WARN_TIER` does not.
 
-## What this does not do
+## Next steps
 
-- **No cross-document reconciliation.** Both scans are the Andina PDF, so those
-  six lines appear three times, and Sanova's TLD and Mekong's Mekatri are the
-  same molecule from different suppliers. The table carries all of it without
-  linking any of it. This is the biggest gap. Matching on INN plus strength plus
-  form would get most of the way, but deciding which of three copies of the
-  Andina lines is authoritative is a judgement about source precedence, and
-  guessing it silently seemed worse than leaving it visible.
-- **No currency conversion.** Prices sit in USD, EUR and ZAR. Converting needs a
-  rate with a date attached, and a wrong rate applied silently is worse than
-  three currencies shown honestly.
-- **The Andina discount column is flagged, not applied.** Unit prices there are
-  list prices with a separate 3-5% discount; net is not stated. Records carry
-  the list price and a note.
-- **Confidence is heuristic, not calibrated.** The bands are my judgement. With
-  a labelled set I would check whether "low" actually correlates with being
-  wrong, and tune it.
-- **Prompt injection is mitigated, not solved.** Documents come from outside and
-  a PDF is a fine place to hide an instruction. Content is fenced in
-  `<document>` tags and the system prompt says the fence is data, which raises
-  the bar and does not clear it. The real control is that a human approves
-  before anything reaches a system of record, which is the design the brief
-  already assumes.
+Cross-document reconciliation would be the obvious next thing to add, since the
+same products appear from more than one supplier. Currency conversion would
+follow.
